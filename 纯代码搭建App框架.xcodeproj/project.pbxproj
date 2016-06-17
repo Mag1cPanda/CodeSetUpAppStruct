@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5861521D13C7620062861D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861511D13C7620062861D /* main.m */; };
+		CC5861551D13C7620062861D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861541D13C7620062861D /* AppDelegate.m */; };
+		CC58615E1D13C7620062861D /* _____App__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC58615C1D13C7620062861D /* _____App__.xcdatamodeld */; };
+		CC5861601D13C7620062861D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC58615F1D13C7620062861D /* Assets.xcassets */; };
+		CC5861631D13C7620062861D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5861611D13C7620062861D /* LaunchScreen.storyboard */; };
+		CC58616C1D13CC620062861D /* SRSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58616B1D13CC620062861D /* SRSegmentedControl.m */; };
+		CC58616F1D13D79F0062861D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58616E1D13D79F0062861D /* BaseViewController.m */; };
+		CC5861721D13DB030062861D /* SRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861711D13DB030062861D /* SRNavigationController.m */; };
+		CC5861761D13DD940062861D /* SRSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861751D13DD940062861D /* SRSwitchViewController.m */; };
+		CC5861791D13DE230062861D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861781D13DE230062861D /* UIView+Frame.m */; };
+		CC58617C1D13E07A0062861D /* PublicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58617B1D13E07A0062861D /* PublicClass.m */; };
+		CC5861841D13E2FE0062861D /* SRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861831D13E2FE0062861D /* SRTabBarController.m */; };
+		CC5861881D13E4020062861D /* TheaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861871D13E4020062861D /* TheaterViewController.m */; };
+		CC58618B1D13E4510062861D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58618A1D13E4510062861D /* MineViewController.m */; };
+		CC5861901D13E69E0062861D /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58618F1D13E69E0062861D /* LocationViewController.m */; };
+		CC5861971D13E7220062861D /* MovieFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861921D13E7220062861D /* MovieFirstViewController.m */; };
+		CC5861981D13E7220062861D /* MovieSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861941D13E7220062861D /* MovieSecondViewController.m */; };
+		CC5861991D13E7220062861D /* MovieThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5861961D13E7220062861D /* MovieThirdViewController.m */; };
+		CC58619E1D13E7350062861D /* FoundFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58619B1D13E7350062861D /* FoundFirstViewController.m */; };
+		CC58619F1D13E7350062861D /* FoundSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC58619D1D13E7350062861D /* FoundSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC58614D1D13C7620062861D /* 纯代码搭建App框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "纯代码搭建App框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5861511D13C7620062861D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5861531D13C7620062861D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC5861541D13C7620062861D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC58615D1D13C7620062861D /* _____App__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____App__.xcdatamodel"; sourceTree = "<group>"; };
+		CC58615F1D13C7620062861D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5861621D13C7620062861D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC5861641D13C7620062861D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC58616A1D13CC620062861D /* SRSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSegmentedControl.h; sourceTree = "<group>"; };
+		CC58616B1D13CC620062861D /* SRSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSegmentedControl.m; sourceTree = "<group>"; };
+		CC58616D1D13D79F0062861D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CC58616E1D13D79F0062861D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CC5861701D13DB030062861D /* SRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRNavigationController.h; sourceTree = "<group>"; };
+		CC5861711D13DB030062861D /* SRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRNavigationController.m; sourceTree = "<group>"; };
+		CC5861741D13DD940062861D /* SRSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSwitchViewController.h; sourceTree = "<group>"; };
+		CC5861751D13DD940062861D /* SRSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSwitchViewController.m; sourceTree = "<group>"; };
+		CC5861771D13DE230062861D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CC5861781D13DE230062861D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CC58617A1D13E07A0062861D /* PublicClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicClass.h; sourceTree = "<group>"; };
+		CC58617B1D13E07A0062861D /* PublicClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicClass.m; sourceTree = "<group>"; };
+		CC5861821D13E2FE0062861D /* SRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTabBarController.h; sourceTree = "<group>"; };
+		CC5861831D13E2FE0062861D /* SRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTabBarController.m; sourceTree = "<group>"; };
+		CC5861861D13E4020062861D /* TheaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheaterViewController.h; sourceTree = "<group>"; };
+		CC5861871D13E4020062861D /* TheaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheaterViewController.m; sourceTree = "<group>"; };
+		CC5861891D13E4510062861D /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		CC58618A1D13E4510062861D /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		CC58618E1D13E69E0062861D /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		CC58618F1D13E69E0062861D /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		CC5861911D13E7220062861D /* MovieFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieFirstViewController.h; sourceTree = "<group>"; };
+		CC5861921D13E7220062861D /* MovieFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieFirstViewController.m; sourceTree = "<group>"; };
+		CC5861931D13E7220062861D /* MovieSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieSecondViewController.h; sourceTree = "<group>"; };
+		CC5861941D13E7220062861D /* MovieSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieSecondViewController.m; sourceTree = "<group>"; };
+		CC5861951D13E7220062861D /* MovieThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieThirdViewController.h; sourceTree = "<group>"; };
+		CC5861961D13E7220062861D /* MovieThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieThirdViewController.m; sourceTree = "<group>"; };
+		CC58619A1D13E7350062861D /* FoundFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundFirstViewController.h; sourceTree = "<group>"; };
+		CC58619B1D13E7350062861D /* FoundFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundFirstViewController.m; sourceTree = "<group>"; };
+		CC58619C1D13E7350062861D /* FoundSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundSecondViewController.h; sourceTree = "<group>"; };
+		CC58619D1D13E7350062861D /* FoundSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC58614A1D13C7620062861D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5861441D13C7620062861D = {
+			isa = PBXGroup;
+			children = (
+				CC58614F1D13C7620062861D /* 纯代码搭建App框架 */,
+				CC58614E1D13C7620062861D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC58614E1D13C7620062861D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC58614D1D13C7620062861D /* 纯代码搭建App框架.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC58614F1D13C7620062861D /* 纯代码搭建App框架 */ = {
+			isa = PBXGroup;
+			children = (
+				CC5861851D13E3EC0062861D /* VC */,
+				CC5861811D13E2770062861D /* Segment */,
+				CC5861801D13E2520062861D /* Tab */,
+				CC58617F1D13E2490062861D /* Base */,
+				CC58617D1D13E22C0062861D /* Nav */,
+				CC5861531D13C7620062861D /* AppDelegate.h */,
+				CC5861541D13C7620062861D /* AppDelegate.m */,
+				CC58615F1D13C7620062861D /* Assets.xcassets */,
+				CC5861611D13C7620062861D /* LaunchScreen.storyboard */,
+				CC5861641D13C7620062861D /* Info.plist */,
+				CC58615C1D13C7620062861D /* _____App__.xcdatamodeld */,
+				CC5861501D13C7620062861D /* Supporting Files */,
+			);
+			path = "纯代码搭建App框架";
+			sourceTree = "<group>";
+		};
+		CC5861501D13C7620062861D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5861511D13C7620062861D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC58617D1D13E22C0062861D /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				CC5861701D13DB030062861D /* SRNavigationController.h */,
+				CC5861711D13DB030062861D /* SRNavigationController.m */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		CC58617F1D13E2490062861D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC58617A1D13E07A0062861D /* PublicClass.h */,
+				CC58617B1D13E07A0062861D /* PublicClass.m */,
+				CC58616D1D13D79F0062861D /* BaseViewController.h */,
+				CC58616E1D13D79F0062861D /* BaseViewController.m */,
+				CC5861771D13DE230062861D /* UIView+Frame.h */,
+				CC5861781D13DE230062861D /* UIView+Frame.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CC5861801D13E2520062861D /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				CC5861821D13E2FE0062861D /* SRTabBarController.h */,
+				CC5861831D13E2FE0062861D /* SRTabBarController.m */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
+		CC5861811D13E2770062861D /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				CC58616A1D13CC620062861D /* SRSegmentedControl.h */,
+				CC58616B1D13CC620062861D /* SRSegmentedControl.m */,
+				CC5861741D13DD940062861D /* SRSwitchViewController.h */,
+				CC5861751D13DD940062861D /* SRSwitchViewController.m */,
+			);
+			name = Segment;
+			sourceTree = "<group>";
+		};
+		CC5861851D13E3EC0062861D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CC58618D1D13E5860062861D /* Movie */,
+				CC58618C1D13E5820062861D /* Found */,
+				CC5861861D13E4020062861D /* TheaterViewController.h */,
+				CC5861871D13E4020062861D /* TheaterViewController.m */,
+				CC5861891D13E4510062861D /* MineViewController.h */,
+				CC58618A1D13E4510062861D /* MineViewController.m */,
+				CC58618E1D13E69E0062861D /* LocationViewController.h */,
+				CC58618F1D13E69E0062861D /* LocationViewController.m */,
+				CC5861911D13E7220062861D /* MovieFirstViewController.h */,
+				CC5861921D13E7220062861D /* MovieFirstViewController.m */,
+				CC5861931D13E7220062861D /* MovieSecondViewController.h */,
+				CC5861941D13E7220062861D /* MovieSecondViewController.m */,
+				CC5861951D13E7220062861D /* MovieThirdViewController.h */,
+				CC5861961D13E7220062861D /* MovieThirdViewController.m */,
+				CC58619A1D13E7350062861D /* FoundFirstViewController.h */,
+				CC58619B1D13E7350062861D /* FoundFirstViewController.m */,
+				CC58619C1D13E7350062861D /* FoundSecondViewController.h */,
+				CC58619D1D13E7350062861D /* FoundSecondViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		CC58618C1D13E5820062861D /* Found */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Found;
+			sourceTree = "<group>";
+		};
+		CC58618D1D13E5860062861D /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC58614C1D13C7620062861D /* 纯代码搭建App框架 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5861671D13C7620062861D /* Build configuration list for PBXNativeTarget "纯代码搭建App框架" */;
+			buildPhases = (
+				CC5861491D13C7620062861D /* Sources */,
+				CC58614A1D13C7620062861D /* Frameworks */,
+				CC58614B1D13C7620062861D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "纯代码搭建App框架";
+			productName = "纯代码搭建App框架";
+			productReference = CC58614D1D13C7620062861D /* 纯代码搭建App框架.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5861451D13C7620062861D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mag1cPanda;
+				TargetAttributes = {
+					CC58614C1D13C7620062861D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CC5861481D13C7620062861D /* Build configuration list for PBXProject "纯代码搭建App框架" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5861441D13C7620062861D;
+			productRefGroup = CC58614E1D13C7620062861D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC58614C1D13C7620062861D /* 纯代码搭建App框架 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC58614B1D13C7620062861D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5861631D13C7620062861D /* LaunchScreen.storyboard in Resources */,
+				CC5861601D13C7620062861D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5861491D13C7620062861D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC58617C1D13E07A0062861D /* PublicClass.m in Sources */,
+				CC5861881D13E4020062861D /* TheaterViewController.m in Sources */,
+				CC5861841D13E2FE0062861D /* SRTabBarController.m in Sources */,
+				CC58619F1D13E7350062861D /* FoundSecondViewController.m in Sources */,
+				CC58618B1D13E4510062861D /* MineViewController.m in Sources */,
+				CC5861761D13DD940062861D /* SRSwitchViewController.m in Sources */,
+				CC58616F1D13D79F0062861D /* BaseViewController.m in Sources */,
+				CC5861791D13DE230062861D /* UIView+Frame.m in Sources */,
+				CC5861901D13E69E0062861D /* LocationViewController.m in Sources */,
+				CC5861721D13DB030062861D /* SRNavigationController.m in Sources */,
+				CC58616C1D13CC620062861D /* SRSegmentedControl.m in Sources */,
+				CC58615E1D13C7620062861D /* _____App__.xcdatamodeld in Sources */,
+				CC5861551D13C7620062861D /* AppDelegate.m in Sources */,
+				CC5861971D13E7220062861D /* MovieFirstViewController.m in Sources */,
+				CC5861521D13C7620062861D /* main.m in Sources */,
+				CC5861981D13E7220062861D /* MovieSecondViewController.m in Sources */,
+				CC5861991D13E7220062861D /* MovieThirdViewController.m in Sources */,
+				CC58619E1D13E7350062861D /* FoundFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC5861611D13C7620062861D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5861621D13C7620062861D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5861651D13C7620062861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC5861661D13C7620062861D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5861681D13C7620062861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "纯代码搭建App框架/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mag1cPanda.-----App--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC5861691D13C7620062861D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "纯代码搭建App框架/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mag1cPanda.-----App--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5861481D13C7620062861D /* Build configuration list for PBXProject "纯代码搭建App框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5861651D13C7620062861D /* Debug */,
+				CC5861661D13C7620062861D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5861671D13C7620062861D /* Build configuration list for PBXNativeTarget "纯代码搭建App框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5861681D13C7620062861D /* Debug */,
+				CC5861691D13C7620062861D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC58615C1D13C7620062861D /* _____App__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC58615D1D13C7620062861D /* _____App__.xcdatamodel */,
+			);
+			currentVersion = CC58615D1D13C7620062861D /* _____App__.xcdatamodel */;
+			path = "_____App__.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC5861451D13C7620062861D /* Project object */;
+}
